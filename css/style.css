@@ -1,0 +1,127 @@
+*{margin: 0; padding: 0;} 
+
+body{
+	width: 90%;	
+	background: url('../image/jazz2.jpg') no-repeat center center fixed; 
+                -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+}
+ 
+.header {
+	 margin:auto;
+	 text-align: center;
+	 width: 100%;
+	 font-family: Segoe UI;
+	 font-size: 15px;
+
+
+ } 
+.header ul {
+	 background:#2c3e50;
+	 padding: 5px 80px;
+	 list-style: none;
+	 position: relative;
+	 display: inline-table;
+	 width: 98%;
+ }
+ .header ul li{
+ 	float:left;
+ }
+
+ .header ul li:hover{
+ 	background:#34495e;
+ }
+
+ .header ul li:hover a{
+ 	color:#ecf0f1;
+ }
+ .header ul li a:link{
+	 display: block;
+	 padding: 15px;
+	 color: #fff;
+	 text-decoration: none;          
+}
+.header ul li a:visited{
+	 display: block;
+	 padding: 15px;
+	 color: #7f8c8d;
+	 text-decoration: none;          
+}
+.header ul li a:active{
+	 display: block;
+	 padding: 15px;
+	 color: #fff;
+	 text-decoration: none;          
+} 
+ 
+.header #sosial li{
+	float: right;
+	padding: 0px 0px 0px 0px;
+}   
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: :#ecf0f1;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2c3e50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .a1 {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #34495e;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.isi{
+	color: white;
+	margin: 2% 2% 2% 8%;
+	background:#000;opacity:0.6;filter:alpha(opacity=40);
+	text-align: center;
+	border: 2px solid;
+	border-color: #34495e;
+	width: 50%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+} 
+
+.clear {clear:both}
+.footer{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: #FFF;
+	padding-left: 50%;	
+}
+

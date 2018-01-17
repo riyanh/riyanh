@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Halaman Biodata</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+	<style type="text/css" media="screen">
+		#judul{
+			color: white;
+			font-size: 100px;
+			padding-left: 8%;
+			padding-top: 2%;
+			opacity: 0.2;
+		}
+		h2{
+			text-align: left;
+			padding-left: 5px;
+		}
+		hr{
+			width: 90%;
+			text-align: left;
+		}
+		.isi3{
+			color: white;
+			margin: 2% 2% 2% 8%;
+			background:rgba(0,0,0,0.4);
+			padding-left: 50px;
+			border: 1px solid;
+			border-color: rgba(0,0,0,0.4);
+			width: 35%;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		input[type=text]{
+			width: 90%;
+			padding: 12px 12px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border-radius: 4px;
+		}
+		input[type=button]{
+ 		   background-color: #2c3e50;
+    	   border: none;
+    	   color: white;
+    	   padding: 12px 24px;
+    	   text-decoration: none;
+    	   margin: 4px 2px;
+    	   cursor: pointer;
+    	   font-family: arial;
+    	   font-size: 15px;
+    	   border-radius: 4px;
+		}
+		input[type=button]:hover{
+			background-color: #34495e;
+		}
+		select {
+	    width: 90%;
+	    padding: 16px 20px;
+	    border: none;
+	    border-radius: 4px;
+	    background-color: #fFF;
+		}
+		form .form-radio{display:none;}
+		form .form-radio + label{padding-left:8px; }
+		form .form-radio + label::before{
+		    content:""; 
+		    display:inline-block; 
+		    width:25px; 
+		    height:25px; 
+		    background:#fff; 
+		    margin-right:5px; 
+		    border:1px solid #ddd; 
+		    border-radius:50%; -moz-border-radius:50%; 
+		    box-shadow:2px 2px 2px #bbb; -moz-box-shadow:2px 2px 2px #bbb;
+		    transition:0.3s; -moz-transition:0.3s; -webkit-transition:0.3s; -khtml-transition:0.3s;}
+		form .form-radio:checked + label::before{
+		    background:#34A8BF; 
+		    border:5px solid #fff; 
+		    width:17px; 
+		    height:17px;}
+		#bingkai{
+			background:rgba(0,0,0,0.4);
+			padding-left: 20px;
+			border: 1px solid;
+			border-color: rgba(0,0,0,0.4);
+			width: 85%;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="header">
+         <ul>
+         	<li><a href="../index.html"><i class="fa fa-home"></i>&nbsp Home</a></li>
+         	<li>
+         	<div class="dropdown">
+		    <button class="dropbtn">Dropdown 
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="../content/musicjazz.html" class="a1">Music Jazz</a>
+		      <a href="../content/sejarah.html" class="a1">Sejarah</a>
+		      <a href="../content/music.html" class="a1">Jenis Aliran Jazz</a>
+		      <a href="../content/daftar.html" class="a1">Daftar Music Jazz</a>
+		    </div>
+		    </div>
+		    </li>
+         	<li><a href="../content/form.html"><i class="fa fa-pencil-square-o"></i>&nbsp Form</a></li>
+         	<li><a href="../content/layer.html"><i class="fa fa-paper-plane-o"></i>&nbsp Layer</a></li>
+         	<li><a href="../content/table.html"><i class="fa fa-table"></i>&nbsp Table</a></li>
+         	<li><a href="../content/biodata.html"><i class="fa fa-id-card-o"></i>&nbsp Biodata</a></li>
+         	<div id="sosial">
+         		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         		<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         	</div>
+         </ul>
+
+    </div>
+ 
+        <div class="content">
+        	<p id="judul">Jazz Music</p>
+           <div class="isi3">
+           	<h2>Biodata</h2><br>
+           		<hr><br>
+           		<div id="gambar">
+           		<img src="../image/ryan.jpg" alt="Gambar"  style="height: 20%; width: 90%; ">
+           	</div>
+           <div id="bingkai">
+           	<form action="">
+           		<input type="text" id="fname" value="Mohamad Riyan Hidayat" disabled>
+           		<input type="text" id="fname" value="Cianjur, 24 Maret 1999" disabled>
+           		<input type="text" id="fname" value="Kp. Jl. Dipatiukur no.96" disabled>
+           		<select id="agama" name="agama">
+				    <option value="Islam">Islam</option>
+				    <option value="Katolik">Katolik</option>
+				    <option value="Protestan">Protestan</option>
+				    <option value="Buddha">Buddha</option>
+				 </select><br><br>
+           		<input type="radio" class="form-radio" name="rd" id="rd1" checked><label for="rd1">Laki-laki</label>
+           		<input type="radio" class="form-radio" name="rd" id="rd2"><label for="rd2">Perempuan</label>
+			    <br><br>
+			    <input type="text" id="fname" value="Nonton Anime" disabled>
+           	</form>
+           </div>
+           </div>
+            
+        </div>
+
+        <div class="clear"></div>
+ 
+    <div class="footer">
+        <p>Copyright &copy; 2018 by 10117227 MRiyanH IF 7</p>
+    </div>
+</body>
+</html>

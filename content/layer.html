@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Halaman Layer</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+	<style type="text/css" media="screen">
+		#judul{
+			color: white;
+			font-size: 100px;
+			padding-left: 8%;
+			padding-top: 2%;
+			opacity: 0.2;
+		}
+		h2{
+			text-align: left;
+			padding-left: 5px;
+		}
+		hr{
+			width: 90%;
+			text-align: left;
+		}
+		.isi3{
+			color: white;
+			margin: 2% 2% 2% 8%;
+			background:rgba(0,0,0,0.4);
+			padding-left: 50px;
+			border: 1px solid;
+			border-color: rgba(0,0,0,0.4);
+			width: 70%;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.isi2{
+			font-weight: bold;
+			color: white;
+			text-align: left;
+			font-size: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+			font-family: sans-serif;
+		}
+		.layer-1 {
+        position: relative;
+        z-index: 1;
+        background:rgba(0,0,0,0.4);
+        width: 300px;
+        height: 100px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .layer-2 {
+        position: relative;
+        z-index: 2;
+        background:rgba(0,0,0,0.4);
+        width: 300px;
+        height: 100px;
+        margin-top: -10%;
+        margin-left: 25%;
+        font-size: 25px;
+    	text-align: center;
+    }
+    .layer-3 {
+        position: relative;
+        z-index: 3;
+        background:rgba(0,0,0,0.4);
+        text-align: center;
+        width: 295px;
+        height: 100px;
+        font-size: 30px;
+        margin-left: 50%;
+         margin-top: -10%;
+    }
+	
+	</style>
+</head>
+<body>
+	<div class="header">
+         <ul>
+         	<li><a href="../index.html"><i class="fa fa-home"></i>&nbsp Home</a></li>
+         	<li>
+         	<div class="dropdown">
+		    <button class="dropbtn">Dropdown 
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="../content/musicjazz.html" class="a1">Music Jazz</a>
+		      <a href="../content/sejarah.html" class="a1">Sejarah</a>
+		      <a href="../content/music.html" class="a1">Jenis Aliran Jazz</a>
+		      <a href="../content/daftar.html" class="a1">Daftar Music Jazz</a>
+		    </div>
+		    </div>
+		    </li>
+         	<li><a href="../content/form.html"><i class="fa fa-pencil-square-o"></i>&nbsp Form</a></li>
+         	<li><a href="../content/layer.html"><i class="fa fa-paper-plane-o"></i>&nbsp Layer</a></li>
+         	<li><a href="../content/table.html"><i class="fa fa-table"></i>&nbsp Table</a></li>
+         	<li><a href="../content/biodata.html"><i class="fa fa-id-card-o"></i>&nbsp Biodata</a></li>
+         	<div id="sosial">
+         		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         		<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         	</div>
+         </ul>
+
+    </div>
+ 
+        <div class="content">
+        	<p id="judul">Jazz Music</p>
+           <div class="isi3">
+           	<h2>Penggunaan layer</h2><br>
+           		<hr><br>
+           		<div class="layer-1">Selamat Datang di fungsi Layer</div>
+    			<div class="layer-2">Layer Untuk Menyatukan text atau dll</div>
+    			<div class="layer-3">Contohnya adalah ini</div>
+            
+        </div>
+
+        <div class="clear"></div>
+ 
+    <div class="footer">
+        <p>Copyright &copy; 2018 by 10117227 MRiyanH IF 7</p>
+    </div>
+</body>
+</html>
